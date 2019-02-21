@@ -30,10 +30,11 @@ async def get_image(session, url):
 
 
 async def get_page(session, url):
-    """Try to get content on the url
+    """Try to get content on the provided url
+
     :param session: session passed to the function
     :param url: page url
-    :return: page content returned if request successful. if error None is returned
+    :return: if request is successful page content is returned. Otherwise None is returned.
     """
     try:
         resp = await session.get(url)
@@ -131,6 +132,8 @@ async def download_all_images(main_page):
         all_relevant_pages.extend(subpages)
 
         await scrape_pages(session, all_relevant_pages)
+
+    logging.info('Images from main page %s and its sub pages were download', main_page)
 
 
 async def main():
