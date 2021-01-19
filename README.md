@@ -1,7 +1,7 @@
-# exponea-scraper
+# Exponea image downloader
 
 ### Description
-Script downloads all the images found on the main page(exponea.com) and its sub pages and saves them into the output folder.
+Downloads all the images found on the main page(exponea.com) and its sub pages and saves them into the output folder.
 
 ### Usage
 
