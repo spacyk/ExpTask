@@ -1,7 +1,7 @@
-# ExpTask
+# exponea-scraper
 
 ### Description
-Script downloads all the images found on the main page(exponea.com) and its sub pages and saves them into output folder
+Script downloads all the images found on the main page(exponea.com) and its sub pages and saves them into the output folder.
 
 ### Usage
 
